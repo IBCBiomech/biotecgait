@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace biotecgait.Messages
+namespace biotecgait.Messages.Api
 {
     public class InsoleHeaderInfoMessage
     {
         public string MAC { get; }
         public string fwVersion { get; }
         public byte battery { get; }
-        public InsoleHeaderInfoMessage(string MAC, string fwVersion, byte battery) 
-        { 
+        public InsoleHeaderInfoMessage(string MAC, string fwVersion, byte battery)
+        {
             this.MAC = MAC;
             this.fwVersion = fwVersion;
             this.battery = battery;

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace biotecgait.Messages
+namespace biotecgait.Messages.Api
 {
-    public class InsoleConnectedMessage
+    public class InsoleDisconnectedMessage
     {
         public string MAC { get; }
-        public InsoleConnectedMessage(string MAC) 
-        { 
+        public InsoleDisconnectedMessage(string MAC)
+        {
             this.MAC = MAC;
         }
     }

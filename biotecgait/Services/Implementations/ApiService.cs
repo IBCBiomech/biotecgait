@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using CommunityToolkit.Mvvm.Messaging;
 using WisewalkSDK;
-using biotecgait.Messages;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Text.RegularExpressions;
 using static WisewalkSDK.Wisewalk;
 using System.Linq;
 using System;
+using biotecgait.Messages.Api;
 
 namespace biotecgait.Services.Implementations
 {

@@ -4,7 +4,7 @@ using System.Text;
 using biotecgait.Enums;
 using biotecgait.Utilities;
 
-namespace biotecgait.Messages
+namespace biotecgait.Messages.Api
 {
     public class InsoleCaptureData
     {

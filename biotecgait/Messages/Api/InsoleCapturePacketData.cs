@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace biotecgait.Messages
+namespace biotecgait.Messages.Api
 {
     public class InsoleCapturePacketData
     {
